@@ -114,6 +114,7 @@ nav span {
 
 .location-container {
   display: flex;
+  justify-content: center;
 }
 
 .location-address {
@@ -133,11 +134,11 @@ nav span {
 #locations {
   background-image: url("../images/locations-background.jpg");
   padding-top: 70px;
-  display: flex;
-  flex-direction: column;
+  display: block;
   align-items: center;
+  text-align: center;
   height: 500px;
-  justify-content: center;
+  width: 100%;
 }
 
 #locations h2 {
